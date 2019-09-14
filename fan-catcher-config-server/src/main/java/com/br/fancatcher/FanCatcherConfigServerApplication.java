@@ -1,4 +1,4 @@
-package com.br.fancatcher.fancatcherconfigserver;
+package com.br.fancatcher;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

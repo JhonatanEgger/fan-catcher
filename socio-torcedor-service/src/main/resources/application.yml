@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: socio-torcedor-service
+  cloud:
+    config:
+      uri: http://localhost:9090

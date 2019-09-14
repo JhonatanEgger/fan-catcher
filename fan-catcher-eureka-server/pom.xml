@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.br.fancatcher</groupId>
-	<artifactId>fan-catcher-config-server</artifactId>
+	<artifactId>fan-catcher-eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>fan-catcher-config-server</name>
-	<description>Servidor de configurações para o projeto fan-catcher</description>
+	<name>fan-catcher-eureka-server</name>
+	<description>Eureka Server</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -30,7 +30,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
 		<dependency>

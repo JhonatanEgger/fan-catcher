@@ -1,4 +1,4 @@
-package com.br.fancatcher.fancatcherconfigserver;
+package com.br.fancatcher;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class FanCatcherConfigServerApplicationTests {
+public class FanCatcherEurekaServerApplicationTests {
 
 	@Test
 	public void contextLoads() {
